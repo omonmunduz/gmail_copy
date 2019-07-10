@@ -22,6 +22,10 @@ header {
   width: 20%;
 }
 
+.logo img {
+  cursor: pointer;
+}
+
 .search_bar {
   display: inline-block;
   width: 80%;
