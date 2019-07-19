@@ -75,6 +75,24 @@ input[type=checkbox] {
   cursor: pointer;
 }
 
+#delete_checked {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: #474748;
+  color: #ffffff;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+#delete_checked:hover {
+  background-color: #474748;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 2px 2px #474748;
+  padding: 8px;
+}
+
 #delete {
   font-size: 16px;
   padding: 5px;
@@ -127,19 +145,36 @@ input[type=checkbox] {
 
 .inside_div {
   display: inline-block;
-  width: 10%;
+  width: 7%;
   float: left;
+
 }
+
+.inside_button {
+  display: inline-block;
+  width:5%;
+  float: right;
+  padding: 4px;
+  background-color: #474748;
+  color: #303030;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+
 
 .title {
   display: inline-block;
   width: 30%;
+  float: left;
 }
 
 .article {
   display: inline-block;
-  width: 60%;
-  float: right;
+  width: 55%;
+ 
 }
 
 footer {
@@ -159,6 +194,6 @@ a {
 
 /* meta classes starts here */
 
-#when_checkbox_is_checked {
+.when_checkbox_is_checked {
   background-color: #174ea6;
 }
